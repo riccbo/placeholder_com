@@ -13,7 +13,7 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #FF2A00;
-    background-color: #fdf0d2;
+    background-color: #fcf6e9;
 
     padding: 0px;
     margin: 0px;
@@ -115,7 +115,7 @@ body {
 
 #dev {
     margin-left: -30px;
-    margin-right: -100px;
+    margin-right: -125px;
 }
 
 #row {
@@ -127,7 +127,7 @@ body {
 .creative {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 60vw;
 
     margin-top: 50px;
@@ -140,6 +140,10 @@ ul {
 
     list-style-type: none;
     
+}
+
+.left {
+    width: 300px;
 }
 
 .t {
@@ -185,7 +189,7 @@ button {
     font-size: 20px;
 
     padding: 10px 15px;
-    background-color: #fdf0d2;
+    background-color: #fcf6e9;
 }
 
 #btn-learn {
@@ -233,13 +237,17 @@ button:hover {
     cursor: pointer;
 }
 
+.indent {
+    padding-left: 15px;
+}
+
 @media screen and (max-width: 1400px) {
     #everything {
         display: none;
     }
 
     body {
-        background-color: #fdf0d2;
+        background-color: #fcf6e9;
     }
 
     #too_small {
