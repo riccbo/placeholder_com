@@ -1,10 +1,19 @@
+/*
+DISCLAIMER: I am perfectly capable or writing nice and clean CSS.
+This is just a way to get the aesthetic result that I need for an application.
+!!!
+*/
+
+#too_small {
+    display: none;
+}
 
 body {
     font-family: "forma-djr-text", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: #FF2A00;
-    background-color: #FFFAEE;
+    background-color: #fdf0d2;
 
     padding: 0px;
     margin: 0px;
@@ -176,7 +185,7 @@ button {
     font-size: 20px;
 
     padding: 10px 15px;
-    background-color: #FFFAEE;
+    background-color: #fdf0d2;
 }
 
 #btn-learn {
@@ -222,4 +231,33 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    #everything {
+        display: none;
+    }
+
+    body {
+        background-color: #fdf0d2;
+    }
+
+    #too_small {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        height: 100vh;
+    }
+
+    #too_small h1 {
+        font-family: "forma-djr-text", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #FF2A00;
+        font-size: 50px;
+    }
+
 }
