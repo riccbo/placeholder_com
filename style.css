@@ -13,7 +13,7 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #FF2A00;
-    background-color: #fdf0d2;
+    background-color: #fefefa;
 
     padding: 0px;
     margin: 0px;
@@ -185,7 +185,7 @@ button {
     font-size: 20px;
 
     padding: 10px 15px;
-    background-color: #fdf0d2;
+    background-color: #fefefa;
 }
 
 #btn-learn {
@@ -239,7 +239,7 @@ button:hover {
     }
 
     body {
-        background-color: #fdf0d2;
+        background-color: #fefefa;
     }
 
     #too_small {
