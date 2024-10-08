@@ -233,7 +233,6 @@ button:hover {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1400px) {
     #everything {
         display: none;
@@ -262,8 +261,3 @@ button:hover {
     }
 
 }
-=======
-@media (max-width: 1500px) {
-    
-}
->>>>>>> 1783f78e9383d9ce40e03b40b12c3a6466fa2fb1
